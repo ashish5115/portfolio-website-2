@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+.navbar{
+    display: flex;
+    background-color: rgb(113, 37, 69);
+    width: 100vw;
+    justify-content: center;
+}
+
+
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+}
+.navbar ul li{
+    color: white;
+    margin: 12px;
+    padding: 5px;
+    list-style: none;
+
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+.navbar ul li a:hover{
+    color: rgb(216, 205, 205);
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.navbar .logo img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    
+}
+
+#intro{
+    height: 40vh;
+    width: 100vw;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2B0CijQ7emlHuGe9PoZlgJIPmTej59VFHoQ2C35OndDOnjLObCHDUtuA&s=10);
+    color: white;
+}
+
+#spanname{
+    font-family:serif;
+}
+
+#ashishimg{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.form-group input{
+    text-align: center; 
+    display: flex;
+    width: 300px;
+    padding: 6px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 8px auto;
+    font-size: 13px;
+    font-family: 'Baloo Bhai' , cursive;
+    justify-content: center;
+ }
+
+ .formcontainer{
+    /* border: 2px solid white; */
+    display: flex;
+    margin: 55px 0px;
+    padding: 75px;
+    width: 36%;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.form-group input{
+   text-align: center; 
+   width: 300px;
+   padding: 6px;
+   border: 2px solid black;
+   border-radius: 20px;
+   margin: 8px auto;
+   font-size: 13px;
+   font-family: 'Baloo Bhai' , cursive;
+}
+
+.formcontainer h1{
+    text-align: center;
+}
+
+.formcontainer button{
+    display: block;
+    width: 23%;
+    margin: 10px auto;
+}
+
+.btn{
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Baloo Bhai' , cursive;
+}
+.btn:hover{
+    background-color: rgb(48, 46, 46);
+}
+
+.socialLogo{
+    height: 33px;
+    width: 33px;
+}
